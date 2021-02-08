@@ -7,9 +7,9 @@ WORKDIR /src
 COPY ["src/WeatherForcast.Api/WeatherForcast.Api.csproj", "WeatherForcast.Api/"]
 
 RUN dotnet restore "WeatherForcast.Api/WeatherForcast.Api.csproj"
-COPY . .
+COPY src/ .
 WORKDIR "/src/WeatherForcast.Api"
-RUN dotnet build "WeatherForcast.Api.csproj" -c Release -o /app/build
+RUN dotnet build "WeatherForcast.Api.csproj" -c Release -o /app/build 
 
 FROM build AS publish
 RUN dotnet publish "WeatherForcast.Api.csproj" -c Release -o /app/publish
