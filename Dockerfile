@@ -4,7 +4,7 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /src
-COPY ["WeatherForcast.Api/WeatherForcast.Api.csproj", "WeatherForcast.Api/"]
+COPY ["src/WeatherForcast.Api/WeatherForcast.Api.csproj", "WeatherForcast.Api/"]
 
 RUN dotnet restore "WeatherForcast.Api/WeatherForcast.Api.csproj"
 COPY . .
