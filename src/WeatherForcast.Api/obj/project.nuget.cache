@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JCxtnaRirdzU0KlbfGC+RYPbjkwOI+K7DXz/2hZV/O34lOKJytGQNCkf3uYOVNvU95Ke4nfX5YCqXlSFG8SiMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Neil\\Source\\Repos\\WeatherForecastApi\\src\\WeatherForcast.Api\\WeatherForcast.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Neil\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\Neil\\.nuget\\packages\\microsoft.visualstudio.azure.kubernetes.tools.targets\\1.1.0\\microsoft.visualstudio.azure.kubernetes.tools.targets.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
